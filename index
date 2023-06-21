@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>3D Car Model Reconstruction via Mobile Camera </title>
+    <link rel="icon" type="image/png" href="image_files\car.png" />
+    <link rel="stylesheet" href="./image_files/font-awesome.min.css" />
+    <link rel="stylesheet" href="./image_files/codemirror.min.css" />
+    <link rel="stylesheet" href="./image_files/app.css" />
+    <link rel="stylesheet" href="./image_files/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .mySlides {
+            display: none
+        }
+
+        .w3-left,
+        .w3-right,
+        .w3-badge {
+            cursor: pointer
+        }
+
+        .w3-badge {
+            height: 13px;
+            width: 13px;
+            padding: 0
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h1 class="col-md-12 text-center">
+                Tsunami Detection (Buoy) <br />
+                
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="#">
+                            Jknowledge Developer Team
+                        </a>
+                    </li>
+                                 </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <ul class="nav nav-pills nav-justified">
+
+                    <li>
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/4AoEUlcfdoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>Abstract</h3>
+                <hr>
+                
+                <p class="text-justify">
+                    &emsp;&emsp;&emsp;Nowadays, motor insurance is an insurance that all road users must 
+                    have as a guarantee to protect life and property in the event of an accident from 
+                    using a road vehicle. However, motor insurance often encounters problems in the 
+                    process of vehicle damage evaluation to settle insurance compensation payments 
+                    for the insured.
+                    
+                    <br />&emsp;&emsp;&emsp;Due to the limitation in an insurance company privacy which allows inspector 
+                    to be able to evaluate only in the company affiliated facility and inspectors bias in 
+                    assessing damages, the company and the insured can be exploited by the system. 
+                    Therefore, the developer proposed a system for assessing car damage using a 3D 
+                    model retrieval method, by converting the pre-insurance 3D model and the 
+                    accident 3D model into a multi-view 2D image. Then, a 2D image obtained from the 
+                    two models will be compared to determine the damage point of the vehicle and 
+                    calculate the percentage of damage.  <br />&emsp;&emsp;&emsp;The benefit of this development is providing supports in the initial damage 
+                    assessment and reducing costs incurred from damage assessment. Moreover, the 
+                    development can be applied for the use in medical technology through bone 
+                    comparison to create artificial bone for the patient and further usage in other model 
+                    such as telephone, shoes, laptop, or any objects which can be 3D modelled.
+                </p>
+            </div>
+        </div>
+        <p class="text-justify">
+            <h3>Part 1 3D model reconstruction. <br /></h3>
+            <h4> <a href="https://thanadolch.github.io/Project_web/">Go to 3D Car Model Reconstruction</a></h4>
+        </p>
+        <img src="image_files\modelling1.png" ><br />
+        <h3>Part 2 Compare 3D Models. <br /></h3>
+        <h4> <a href="https://meenters.github.io/VDAS_wabpage/">Go to vehicle Damage Assessment System</a></h4>
+        
+        <img src="image_files\allpic.PNG">
+               
+        
+        <!-- Awards!!!!!!!!!! -->
+        <!--div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>Awards</h3>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <ul class="nav nav-pills nav-justified">
+                    <li>
+                        <a href="https://www.depa.or.th/th/PM-award">
+                            <img src="./image_files/depa.png" height="180px" /><br />
+                            <h4><strong>Digital Youth of the Year 2020</strong></h4>
+                            Prime Minister’s Digital Award 2020 <br />
+                            By DEPA<br /><br />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sc.kku.ac.th/sciweb/4023.html">
+                            <img src="./NeRV_files/NSC.png" height="180px" /><br />
+                            <h4><strong>1st Runner-Up (NSC2020)</strong></h4>
+                            The Twenty-second National Software Contest Thailand 2020<br />
+                            Category: Data Science and Artificial Intelligence Application <br />
+                            By NSTDA
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- rrrrr -->
+
+        <!--div class="w3-content w3-display-container" style="max-width:700px; margin-top: 30px; margin-bottom: 30px;">
+            <img class="mySlides" src="NeRV_files/IMG04.jpg" style="width:100%">
+            <img class="mySlides" src="NeRV_files/IMG03.jpg" style="width:100%">
+            <img class="mySlides" src="NeRV_files/IMG05.jpg" style="width:100%">
+            <img class="mySlides" src="NeRV_files/IMG07.jpg" style="width:100%">
+            <img class="mySlides" src="NeRV_files/IMG02.jpg" style="width:100%">
+            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+                style="width:100%">
+                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+            </div>
+        </div>
+        <!-- rrrrr -->
+        <!--div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>Presentation Video for Prime Minister's Digital Award 2020</h3>
+                <hr>
+                <div class="text-center">
+                    <div style="position: relative">
+                        <iframe align="center" width="100%" height="422"
+                            src="https://www.youtube-nocookie.com/embed/SznOiUYxk_4" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>Presentation Poster for NSC 2020 </h3>
+                <hr>
+                <div class="text-center">
+                    <div style="position: relative">
+                        <img src="./NeRV_files/Poster.png" height="1000px"><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>Awards received</h3>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <ul class="nav nav-pills nav-justified">
+                    <li>
+                        <a href="https://www.depa.or.th/storage/app/media/file/announce-prime-ministers-digital-award-2020.pdf">
+                            <img src="./NeRV_files/depa.png" height="180px" /><br />
+                            <h4><strong>Digital Youth of the Year 2020</strong></h4>
+                            Prime Minister’s Digital Award 2020 <br />
+                            By DEPA<br /><br />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sc2.kku.ac.th/stat/statweb/index.php/component/k2/item/525-news8-9-63">
+                            <img src="./NeRV_files/NSC.png" height="180px" /><br />
+                            <h4><strong>1st Runner-Up (NSC2020)</strong></h4>
+                            The Twenty-second National Software Contest Thailand 2020<br />
+                            Category: Data Science and Artificial Intelligence Application <br />
+                            By NSTDA
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <br />
+                The website template was borrowed from
+                <a href="http://mgharbi.com/">Michaël Gharbi</a>.
+                <br />
+                
+                
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-white";
+        }
+
+    </script>
+</body>
+
+</html>
